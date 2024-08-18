@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador Alura</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header><img src="alura-logo.png" alt="logo alura latam" class="alura_logo"></header>
+    <main>
+        <section>
+            <div>
+                <h6 class="condiciones_entrada_texto">*El encriptador solo recibe letras minúsculas, sin carácteres especiales <br>o acentos:</h6>
+            </div>
+                <textarea class="text_area" cols="20" rows="10" placeholder="Ingresa tu texto aquí"></textarea>
+            <div class="botones"></div>
+                <button class="boton_encriptar" onclick="btnEncriptar()">ENCRIPTAR</button>
+                <button class="boton_desencriptar" onclick="btnDesEncriptar()">DESENCRIPTAR</button>
+        </section>
+        <section>
+            <textarea class="mensaje_encriptado" cols="20" rows="10" placeholder="Texto aparecerá aquí"></textarea>
+            <div>
+                <button class="boton_copiar">COPIAR</button>
+            </div>
+        </section>
+    </main>
+    <script src="/script.js"></script>
+</body>
+<footer>
+    <h6 class="footer__encriptador">Desarrollado por: Del Bosque publicidad</h6>
+</footer>
+</html>

@@ -1,0 +1,123 @@
+*{
+    background-image: url(/bg-nrj.jpgx);
+    background-repeat:no-repeat;
+    font-family: "Roboto Slab", serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+  }
+
+.alura_logo{
+    padding-top: 10px;
+    margin-left: 10px;
+    width: 4%;
+  }
+main{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+  }
+
+.condiciones_entrada_texto{
+    color: rgb(9, 85, 156);
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 0.63rem;
+
+    }
+
+.text_area{
+    border: none;
+    border-radius: 7px;
+    margin-top: 5px;
+    color: #08BDBD;
+    background-color: #ffffff;
+    text-transform: lowercase;
+    padding-left: 14px;
+    }
+    .text_area:focus{
+        outline: none;
+    }
+    ::placeholder{
+        color: rgb(123, 169, 255);
+    }
+
+    .mensaje_encriptado{
+        border: none;
+        background-color: hsl(0, 0%, 100%);
+        background-image: url("/brujula.png");
+        background-repeat: no-repeat;
+        border-radius: 7px;
+        color: #dc7830;
+        margin-left: 56px;
+        margin-top:82px;
+        padding-left:14px;
+        position:relative;
+        
+    }
+
+    .mensaje_encriptado:focus{
+        outline: none;
+    }
+
+    .botones{
+        display: flex;
+        margin-top: 10px;
+        align-items: center;
+    }
+
+    .boton_encriptar{
+        border: none;
+        border-radius: 4px;
+        background-color: rgb(9, 85, 156);
+        color: #ffffff;
+        text-align: center;
+        font-size: 0.75rem;
+        font-weight: 300;
+        cursor: pointer;
+        height: 28px;
+        width: 98px;
+    }
+
+    .boton_desencriptar{
+        border: none;
+        border-radius: 4px;
+        background-color: rgb(116, 170, 220);
+        color: rgb(9, 85, 156);
+        text-align: center;
+        font-size: 0.75rem;
+        font-weight: 400;
+        cursor: pointer;
+        height: 28px;
+        width: 100px;
+    }
+
+
+
+.boton_copiar{
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(9, 85, 156);
+    color: #ffffff;
+    text-align: center;
+    font-size: 0.75rem;
+    font-weight: 300;
+    cursor: pointer;
+    height: 28px;
+    width: 98px;
+    margin-left: 56px;
+
+    margin-top: 10px;
+}
+
+.footer__encriptador{
+    width: auto;
+    height: 28px;
+    color: rgb(91, 126, 159);
+    font-family: "Roboto Slab", serif;
+    font-weight: 400;
+    text-align: center;
+    background-color: rgb(116, 170, 220);
+    padding-top: 5px;
+}
